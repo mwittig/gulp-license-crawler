@@ -1,0 +1,36 @@
+{
+  "name": "gulp-license-crawler",
+  "version": "0.0.0",
+  "description": "Analyzes license information for multiple node.js modules (package.json files) as part of your software project.",
+  "main": "./tasks/gulp-license-crawler.js",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "lodash": "^3.10.1",
+    "npm-license-crawler": "^0.1.1",
+    "stream": "0.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "mocha": "^2.3.4",
+    "should": "^8.0.2"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Marcus Wittig",
+  "bugs": {
+    "url": "http://github.com/mwittig/gulp-license-crawler/issues"
+  },
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mwittig/gulp-license-crawler.git"
+  },
+  "keywords": [
+    "license",
+    "npm",
+    "checker",
+    "crawler",
+    "gulpplugin"
+  ]
+}
