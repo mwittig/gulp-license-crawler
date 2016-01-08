@@ -1,3 +1,4 @@
+'use strict';
 /*
  * gulp-license-crawler
  * https://github.com/mwittig/gulp-license-crawler
@@ -5,13 +6,12 @@
  * Copyright (c) 2016 Marcus Wittig
  * Licensed under the BSD 3-clause license.
  */
-var gutil = require('gulp-util');
+var gulpUtil = require('gulp-util');
 var _     = require('lodash');
-var File = gutil.File;
+var File = gulpUtil.File;
 var path = require('path');
 var crawler = require('npm-license-crawler');
 var Stream = require('stream');
-var PluginError = gutil.PluginError;
 var PLUGIN_NAME = 'gulp-license-crawler';
 
 function licenseCrawler(options) {
@@ -25,7 +25,7 @@ function licenseCrawler(options) {
     crawler.dumpLicenses(options,
         function (error, result) {
             if (error) {
-                throw new gutil.PluginError(PLUGIN_NAME, error, {showStack: true});
+                throw new gulpUtil.PluginError(PLUGIN_NAME, error, {showStack: true});
             }
             else {
                 var file = new File({
