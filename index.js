@@ -7,7 +7,7 @@
  * Licensed under the BSD 3-clause license.
  */
 var gulpUtil = require('gulp-util');
-var _     = require('lodash');
+var assign = require('lodash.assign');
 var File = gulpUtil.File;
 var path = require('path');
 var crawler = require('npm-license-crawler');
@@ -21,7 +21,7 @@ function licenseCrawler(options) {
             gulp: true
         };
 
-    options = _.extend(defaults, options || {});
+    options = assign(defaults, options || {});
     crawler.dumpLicenses(options,
         function (error, result) {
             if (error) {
