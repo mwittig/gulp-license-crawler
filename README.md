@@ -61,6 +61,10 @@ Default Value: `undefined`
 
 Export data as CSV to the given file path. Be cautious, the task will overwrite file if exists!
 
+## History
+
+See [Release History](https://github.com/mwittig/gulp-license-crawler/blob/master/HISTORY.md).
+
 ## License 
 
 Copyright (c) 2016, Marcus Wittig
