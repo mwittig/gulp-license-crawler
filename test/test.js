@@ -32,11 +32,11 @@ describe('gulp-license-crawler', function() {
 
         stream.on('data', function (chunk) {
             dataSent = true;
-            chunk.should.be.an.Object;
+            chunk.should.be.an.Object();
         });
 
         stream.on('finish', function () {
-            dataSent.should.be.true;
+            dataSent.should.be.true();
             done();
         });
 
@@ -44,7 +44,7 @@ describe('gulp-license-crawler', function() {
             done(err);
         });
 
-        stream.should.be.an.object;
+        stream.should.be.an.Object();
         stream.should.be.an.instanceOf(Stream);
     });
 });
