@@ -1,5 +1,7 @@
 # Release History
 
+* 20160822, V0.0.7
+    * Updated dependencies
 * 20160718, V0.0.6
     * Updated dependencies
     * Test fixture
