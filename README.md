@@ -1,5 +1,11 @@
 # gulp-license-crawler
 
+[![Npm Version](https://badge.fury.io/js/gulp-license-crawler.svg)](http://badge.fury.io/js/gulp-license-crawler)
+[![Build Status](https://travis-ci.org/mwittig/gulp-license-crawler.svg?branch=master)](https://travis-ci.org/mwittig/gulp-license-crawler)
+[![Dependency Status](https://david-dm.org/mwittig/gulp-license-crawler.svg)](https://david-dm.org/mwittig/gulp-license-crawler)
+
+
+
 <table>
 <tr>
 <td>Description</td>
@@ -67,7 +73,7 @@ See [Release History](https://github.com/mwittig/gulp-license-crawler/blob/maste
 
 ## License 
 
-Copyright (c) 2016, Marcus Wittig
+Copyright (c) 2016-2017, Marcus Wittig
 All rights reserved.
 
 [BSD-3-Clause License](https://github.com/mwittig/gulp-license-crawler/blob/master/LICENSE)
