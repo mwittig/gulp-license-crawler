@@ -1,5 +1,8 @@
 # Release History
 
+* 20170329, V0.0.8
+    * Updated dependencies
+    * Added badges
 * 20160822, V0.0.7
     * Updated dependencies
 * 20160718, V0.0.6
