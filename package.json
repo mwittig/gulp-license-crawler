@@ -4,16 +4,16 @@
   "description": "Analyzes license information for multiple node.js modules (package.json files) as part of your software project.",
   "main": "./tasks/gulp-license-crawler.js",
   "dependencies": {
-    "gulp-util": "^3.0.7",
+    "gulp-util": "^3.0.8",
     "lodash.assign": "^4.2.0",
-    "npm-license-crawler": "^0.1.4",
+    "npm-license-crawler": "^0.1.5",
     "stream": "0.0.2"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-mocha": "^4.2.0",
-    "mocha": "^3.0.2",
-    "should": "^11.1.0"
+    "mocha": "^3.2.0",
+    "should": "^11.2.1"
   },
   "scripts": {
     "test": "mocha --reporter spec"
