@@ -1,5 +1,7 @@
 # gulp-license-crawler
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mwittig/gulp-license-crawler.svg)](https://greenkeeper.io/)
+
 [![Npm Version](https://badge.fury.io/js/gulp-license-crawler.svg)](http://badge.fury.io/js/gulp-license-crawler)
 [![Build Status](https://travis-ci.org/mwittig/gulp-license-crawler.svg?branch=master)](https://travis-ci.org/mwittig/gulp-license-crawler)
 [![Dependency Status](https://david-dm.org/mwittig/gulp-license-crawler.svg)](https://david-dm.org/mwittig/gulp-license-crawler)
