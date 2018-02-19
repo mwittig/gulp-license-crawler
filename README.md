@@ -67,6 +67,24 @@ Default Value: `undefined`
 
 Export data as CSV to the given file path. Be cautious, the task will overwrite file if exists!
 
+### options.omitVersion
+Type: `Boolean`
+Default value: `false`
+
+Don't display versions in result (e.g. "npm-license-crawler@0.1.5" becomes "npm-license-crawler")
+
+### options.onlyDirectDependencies
+Type: `Boolean`
+Default value: `false`
+
+Show only direct dependencies licenses, i.e., don't list dependencies of dependencies.
+
+### options.relativeLicensePath
+Type: `Boolean`
+Default value: `false`
+
+Output the relative file path for license files.
+
 ## History
 
 See [Release History](https://github.com/mwittig/gulp-license-crawler/blob/master/HISTORY.md).
