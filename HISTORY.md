@@ -1,5 +1,8 @@
 # Release History
 
+* 201701006, V0.0.10
+    * Updated dependencies
+    * Added documentation for new options
 * 201701006, V0.0.9
     * Updated dependencies
 * 20170329, V0.0.8

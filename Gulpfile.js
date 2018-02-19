@@ -17,7 +17,7 @@ gulp.task('test', function () {
 });
 
 gulp.task('licenses', function() {
-    return licenseCrawler()
+    return licenseCrawler({omitVersion: false})
         .pipe(gulp.dest('./licenses'))
 });
 
