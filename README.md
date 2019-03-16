@@ -91,7 +91,7 @@ See [Release History](https://github.com/mwittig/gulp-license-crawler/blob/maste
 
 ## License 
 
-Copyright (c) 2016-2017, Marcus Wittig
+Copyright (c) 2016-2019, Marcus Wittig
 All rights reserved.
 
 [BSD-3-Clause License](https://github.com/mwittig/gulp-license-crawler/blob/master/LICENSE)
