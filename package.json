@@ -6,7 +6,7 @@
   "dependencies": {
     "gulp-util": "^3.0.8",
     "lodash.assign": "^4.2.0",
-    "npm-license-crawler": "^0.1.7",
+    "npm-license-crawler": "^0.2.0",
     "stream": "0.0.2"
   },
   "devDependencies": {
